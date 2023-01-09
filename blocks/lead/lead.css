@@ -1,0 +1,6 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  padding-top: 48px;
+  margin: 0 auto;
+}
