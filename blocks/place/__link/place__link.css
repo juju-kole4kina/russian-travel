@@ -1,0 +1,8 @@
+.place__link {
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
