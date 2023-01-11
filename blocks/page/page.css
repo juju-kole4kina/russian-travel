@@ -1,4 +1,6 @@
 .page {
   font-family: 'Inter', 'Arial', sans-serif;
   width: 1280px;
+  margin: 0 auto;
+  color: #fff;
 }
