@@ -1,0 +1,10 @@
+.footer__link {
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+  padding-right: 18px;
+}
+
+/* .footer__link:last-of-type {
+  padding-right: 0;
+} */
