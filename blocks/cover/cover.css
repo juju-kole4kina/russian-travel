@@ -1,0 +1,11 @@
+.cover {
+  max-width: 1184px;
+  height: 740px;
+  background-image: url('../../images/cover/background-min.jpg');
+  background-position: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
