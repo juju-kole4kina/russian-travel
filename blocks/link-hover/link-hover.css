@@ -1,5 +1,5 @@
-.link-hover {
-  transition: opacity .3s ease;
+.link-hover{
+  transition: opacity .5s ease;
 }
 
 .link-hover:hover {

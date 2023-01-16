@@ -2,8 +2,6 @@
   margin: 0 0 12px 0;
   font-size: 12px;
   font-weight: 400;
-  line-height: 1;
+  line-height: 12px;
   letter-spacing: 2px;
-  grid-column: 2/3;
-  grid-row: 1/2;
 }
