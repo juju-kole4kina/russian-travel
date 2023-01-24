@@ -1,26 +1,22 @@
 .header {
-  max-width: calc(100% - 96px);
+  max-width: calc(100% - 112px);
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   padding: 28px 0 56px 0;
+  align-items: center;
 }
 
-@media screen and (max-width: 768px) {
-  .header{
-    max-width: calc(100% - 48px);
-  }
-}
-
-@media screen and (max-width: 470px) {
-  .header{
-    max-width: calc(100% - 35px);
+@media (max-width: 1024px) {
+  .header {
+    max-width: calc(100% - 96px);
+    padding-bottom: 48px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header{
     max-width: calc(100% - 32px);
-    padding-top: 16px;
+    padding: 16px 0 48px 0;
   }
 }

@@ -3,13 +3,17 @@
 @import url('../vendor/fonts.css');
 /* Общие стили страницы */
 @import url('../blocks/root/root.css');
-@import url('../blocks/page/page.css');
+@import url('../blocks/hyphention/hiphenation.css');
 /* Стили при наведении */
 @import url('../blocks/link-hover/link-hover.css');
 /* Header */
 @import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__lang/header__lang.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
+@import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
+/* Content */
+@import url('../blocks/content/content.css');
 /* Lead */
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__title/lead__title.css');
@@ -21,10 +25,13 @@
 @import url('../blocks/intro/__title/intro__title.css');
 @import url('../blocks/intro/__text/intro__text.css');
 @import url('../blocks/intro/__list/intro__list.css');
+@import url('../blocks/intro/__list-item/intro__list-item.css');
 @import url('../blocks/intro/__list-vol/intro__list-vol.css');
 /* Photo-grid */
 @import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/photo-grid/__list/photo-grid__list.css');
 @import url('../blocks/photo-grid/__item/photo-grid__item.css');
+@import url('../blocks/photo-grid/__image/photo-grid__image.css');
 /* Places */
 @import url('../blocks/places/places.css');
 /* Place */
@@ -39,7 +46,6 @@
 /* Cover */
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/cover/__link/cover__link.css');
-@import url('../blocks/cover/__overlay/cover__overlay.css');
 @import url('../blocks/cover/__title/cover__title.css');
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
 /* Footer */

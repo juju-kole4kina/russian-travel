@@ -1,8 +1,13 @@
-@media screen and (max-width: 470px) {
+.footer__menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 19px;
+}
+
+@media screen and (max-width: 420px) {
   .footer__menu{
-    display: flex;
     flex-direction: column;
-    margin-bottom: 48px;
+    gap: 32px;;
   }
 }
 
