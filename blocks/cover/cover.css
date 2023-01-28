@@ -1,18 +1,15 @@
 .cover {
-  max-width: calc(100% - 96px);
+  max-width: 1184px;
   margin: 0 auto;
+  height: 740px;
   background: center / cover no-repeat url('../../images/cover/background-min.jpg');
   display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
   align-items: center;
-  height: 740px;
-  padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    max-width: 100%;
+    width: 100%;
     height: 640px;
   }
 }
@@ -24,13 +21,14 @@
 }
 
 @media screen and (max-width: 540px) {
-  .cover{
+  .cover {
     height: 300px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .cover{
+  .cover {
     height: 200px;
+
   }
 }

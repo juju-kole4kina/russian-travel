@@ -4,27 +4,31 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  gap: 16px;
-  align-items: start;
+  grid-gap: 16px;
 }
 
 @media screen and (max-width: 1024px) {
   .photo-grid__list {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 14px;
+    grid-gap: 14px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid__list {
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
-    gap: 16px;
+    grid-gap: 16px;
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 600px) {
   .photo-grid__list {
-    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    grid-template-columns: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid__list {
     gap: 12px;
   }
 }
