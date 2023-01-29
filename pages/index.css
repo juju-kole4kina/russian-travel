@@ -3,7 +3,6 @@
 @import url('../vendor/fonts.css');
 /* Общие стили страницы */
 @import url('../blocks/root/root.css');
-@import url('../blocks/hyphention/hiphenation.css');
 /* Стили при наведении */
 @import url('../blocks/link-hover/link-hover.css');
 /* Header */
@@ -13,6 +12,7 @@
 @import url('../blocks/header/__lang-item/header__lang-item.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
 @import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
+
 /* Content */
 @import url('../blocks/content/content.css');
 /* Lead */

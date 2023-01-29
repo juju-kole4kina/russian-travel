@@ -9,14 +9,14 @@
   z-index: 2;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 620px) {
   .cover__title {
     font-size: 55px;
     line-height: 59px;
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 470px) {
   .cover__title {
     font-size: 45px;
     line-height: 49px;

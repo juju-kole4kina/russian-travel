@@ -12,10 +12,8 @@
 }
 
 @media screen and (max-width: 420px) {
-.place__website {
-  grid-column-start: 1;
-  grid-row-start: 2;
-  margin-left: 16px;
-}
+  .place__website {
+    margin-left: 16px;
+  }
 }
 
